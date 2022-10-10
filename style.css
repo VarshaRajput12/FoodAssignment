@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    background-color: rgb(209, 229, 229);
+    align-items: center;
+    justify-content: center;
+
+}
+
+.images{
+    align-items: center;
+    margin-left: 360px;
+
+}
+
+.margin{
+    margin-bottom: 20px;
+}
+.images2{
+    margin-left: 100px;
+}
+
+.images3{
+    margin-left: 100px;
+}
+
+.image1{
+    border: 10px solid rgb(120, 50, 185);
+}
+
+.image2{
+    border: 10px dashed rgb(120, 50, 185);
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.image3{
+    border: 10px dotted rgb(120, 50, 185);
+}
+
+.image4{
+    border: 10px outset rgb(120, 50, 185);
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+
+.image5{
+    border: 10px groove rgb(120, 50, 185);
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+
+.image6{
+    border: 10px double rgb(120, 50, 185);
+     margin-right: 20px;
+}
+
+.image7{
+    border: 10px  rgb(120, 50, 185);
+    margin-left: 30px;
+   
+}
+
+
+.heading{
+    background-color: rgb(120, 50, 185);
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    margin-bottom: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+.paragraph{
+ border-top: 8px solid rgb(73, 190, 18);
+ border-bottom: 8px solid rgb(185, 20, 119);
+ border-left: 8px solid rgb(100, 62, 188);
+ border-right: 8px solid rgb(233, 224, 54);
+ /* width: 1100px; */
+ background-color: rgb(59, 7, 108);
+ text-align: center;
+ padding: 10px;
+ margin-top: 30px;
+ margin-bottom: 30px;
+ margin-left: 100px;
+ margin-right: 100px;
+ 
+
+}
+
+.paragraph h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 10px;
+    text-align: center;
+    color: aliceblue;
+}
+
+.paragraph p{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
+    color: aliceblue;
+   
+}
+
+.Youtube {
+    margin-left: 30px;
+    margin-right: 30px;
+    color: white;
+    cursor: pointer;
+ }
+
+ .netflix2 {
+    color: white;
+    cursor: pointer;
+    
+ }
+
+ .instagram {
+    color: white;
+    cursor: pointer;
+ }
+
+
+ .Youtube:hover {
+    color: blue;
+ }
+
+ .netflix2:hover {
+    color: blue;
+ }
+
+ .instagram:hover {
+    color: blue;
+ }
+
+
+ .instagram:active {
+    border: solid 1px blue;
+ }
+
+ .Youtube:active {
+    border: solid 1px blue;
+ }
+
+ .netflix2.active {
+    border: solid 1px blue;
+ }
+
+ .link {
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(120, 50, 185);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+ }
